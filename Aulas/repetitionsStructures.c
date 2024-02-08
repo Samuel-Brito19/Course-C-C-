@@ -15,4 +15,10 @@ int main()
         printf("%d", b);
         b--;
     }
+    a = 20;
+    do
+    {
+        printf("\n%d", a);
+        a++;
+    } while (a <= 10);
 }
