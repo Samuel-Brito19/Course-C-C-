@@ -30,4 +30,5 @@ int main()
     {
         printf("%d\n", vector[count]);
     }
+    free(vector);
 }
